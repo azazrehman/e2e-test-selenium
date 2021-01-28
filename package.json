@@ -1,0 +1,26 @@
+{
+  "name": "e2e-selenium",
+  "version": "1.0.0",
+  "description": "A E2E automation suite than built with selenium and mocha",
+  "main": "index.js",
+  "dependencies": {
+    "mocha": "^8.2.1",
+    "selenium-webdriver": "^4.0.0-alpha.8"
+  },
+  "devDependencies": {
+    "chromedriver": "^88.0.0",
+    "geckodriver": "^1.22.1",
+    "nightwatch": "^1.5.1"
+  },
+  "scripts": {
+    "test": "mocha --timeout=0 'src/tests/sample.js'"
+  },
+  "keywords": [
+    "Test",
+    "Automation",
+    "E2EAutomation",
+    "Selenium"
+  ],
+  "author": "Azaz ur rehman",
+  "license": "ISC"
+}
